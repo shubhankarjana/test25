@@ -30,10 +30,6 @@ jobs:
           python -m pip install --upgrade pip
           
 
-      - name: Run tests
-        run: |
-          if ${{ inputs.coverage }}; then
-            pip install coverage
-            
+      
             
          
