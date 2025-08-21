@@ -35,5 +35,5 @@ jobs:
           if ${{ inputs.coverage }}; then
             pip install coverage
             
-            coverage report -m
+            
          
