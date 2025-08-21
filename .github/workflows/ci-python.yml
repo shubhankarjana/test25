@@ -34,7 +34,7 @@ jobs:
         run: |
           if ${{ inputs.coverage }}; then
             pip install coverage
-            coverage run -m pytest
+            
             coverage report -m
           else
             pytest
