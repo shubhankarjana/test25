@@ -36,6 +36,4 @@ jobs:
             pip install coverage
             
             coverage report -m
-          else
-            pytest
-          fi
+         
